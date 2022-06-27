@@ -1,14 +1,14 @@
-import { useState } from 'react';
 import useDarkMode from '../hooks/useDarkMode';
+import { IoSunny } from 'react-icons/io5';
 
 const Navigation = ({ toggleDark, settoggleDark }: any) => {
    const [isDarkMode, toggleDarkMode] = useDarkMode();
-   const classLi = 'p-2 hover:text-neutral-300 transition-all';
+   const classLi = 'p-3 hover:text-neutral-300 transition-all';
 
    return (
       <div className='navigation'>
-         <nav>
-            <ul className='text-black dark:text-white flex'>
+         <nav className='relative'>
+            <ul className={`text-black dark:text-white z-50 flex `}>
                <li className={classLi}>
                   <a
                      href='#inicio'
@@ -79,7 +79,7 @@ const Navigation = ({ toggleDark, settoggleDark }: any) => {
                      toggleDarkMode(isDarkMode), settoggleDark(!toggleDark);
                   }}
                >
-                  Toogle Dark
+                  <IoSunny size={25} />
                </li>
             </ul>
          </nav>

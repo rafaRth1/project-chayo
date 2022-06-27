@@ -1,11 +1,25 @@
+/* 
+   Regular 400
+   Medium 500
+   Bold 700 
+
+   font-family: 'Barlow Condensed', sans-serif;
+   font-family: 'Lato', sans-serif;
+*/
+
 /* Personalization Class*/
-.container {
+
+html {
+   font-family: 'Lato', sans-serif;
+}
+
+.contenedor {
    width: 95%;
    max-width: 120rem;
    margin: 0 auto;
 }
 
-.container-two {
+.contenedor-two {
    width: 75%;
    max-width: 120rem;
    margin: 0 auto;

@@ -2,7 +2,7 @@ import './sectionAboutMe.css';
 
 const SectionAboutMe = () => {
    return (
-      <section className='section-about-me container-two' id='aboutme'>
+      <section className='section-about-me' id='aboutme'>
          <div className='flex flex-col md:flex-row gap-3 my-10 w-full'>
             <div className='description w-full md:w-1/2'>
                <h2 className='text-black dark:text-white text-4xl my-5 uppercase text-center'>Quien chucha soy</h2>

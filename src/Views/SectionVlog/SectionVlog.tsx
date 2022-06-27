@@ -3,17 +3,16 @@ import chayoFive from '../../assets/chayo-five.webp';
 import chayoSix from '../../assets/chayo-six.webp';
 import chayoSeven from '../../assets/chayo-seven.webp';
 import chayoEight from '../../assets/chayo-eigth.webp';
-import one from '../../assets/chayo-one.jpeg';
 import './sectionVlog.css';
 
 const SectionVlog = () => {
    return (
-      <section className='section-vlog container-two' id='vlog'>
+      <section className='section-vlog contenedor-two' id='vlog'>
          <div className='flex flex-col items-center my-10'>
             <h2 className='text-black dark:text-white text-5xl text-center my-16'>Mi Vlog</h2>
-            <div className='flex justify-center flex-col'>
-               <div className='image-main '>
-                  <img src={imageThree} alt='image-three' className='w-full h-full bg-cover' />
+            <div className='flex justify-center flex-col relative'>
+               <div className='image-main relative'>
+                  <img src={imageThree} alt='image-three' className='w-full h-full bg-cover z-50' />
                </div>
                <input
                   type='text'

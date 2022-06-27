@@ -21,16 +21,7 @@ xl	1280px	@media (min-width: 1280px) { ... }
    height: 800px;
 }
 
-/* @media (min-width: 768px) {
-   .section-inicio {
-      width: 800px;
-      height: 600px;
-   }
-}
-
-@media (min-width: 1024px) {
-   .section-inicio {
-      width: 1000px;
-      height: 800px;
-   }
+/* .content-section-inicio {
+   background-color: rgba(255, 255, 255, 0.2);
+   backdrop-filter: blur(20px);
 } */
