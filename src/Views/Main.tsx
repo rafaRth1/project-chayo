@@ -4,13 +4,22 @@ import SectionFollowMe from './SectionFollowMe/SectionFollowMe';
 import SectionInicio from './SectionInicio/SectionInicio';
 import SectionVlog from './SectionVlog/SectionVlog';
 
-const Main = () => {
+interface Props {
+   setModalActive: React.Dispatch<
+      React.SetStateAction<{
+         src: string;
+         active: boolean;
+      }>
+   >;
+}
+
+const Main = ({ setModalActive }: Props) => {
    return (
       <main className='flex flex-col justify-center'>
          <SectionInicio />
          <SectionVlog />
          <SectionAboutMe />
-         <GaleriaImages />
+         <GaleriaImages setModalActive={setModalActive} />
          <SectionFollowMe />
       </main>
    );

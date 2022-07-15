@@ -1,11 +1,20 @@
 import Header from './Header/Header';
 import Main from './Main';
 
-const Layout = () => {
+interface Props {
+   setModalActive: React.Dispatch<
+      React.SetStateAction<{
+         src: string;
+         active: boolean;
+      }>
+   >;
+}
+
+const Layout = ({ setModalActive }: Props) => {
    return (
       <div className='relative'>
          <Header />
-         <Main />
+         <Main setModalActive={setModalActive} />
       </div>
    );
 };

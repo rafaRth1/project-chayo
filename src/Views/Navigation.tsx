@@ -73,14 +73,14 @@ const Navigation = ({ toggleDark, settoggleDark }: any) => {
                   </a>
                </li>
 
-               <li
+               {/*  <li
                   className={classLi}
                   onClick={() => {
                      toggleDarkMode(isDarkMode), settoggleDark(!toggleDark);
                   }}
                >
                   <IoSunny size={25} />
-               </li>
+               </li> */}
             </ul>
          </nav>
       </div>

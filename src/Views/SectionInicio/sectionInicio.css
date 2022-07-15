@@ -9,11 +9,11 @@ xl	1280px	@media (min-width: 1280px) { ... }
 
 .section-inicio {
    width: 100%;
-   height: 100%;
+   height: 100vh;
 }
 
 .section-inicio div {
-   background-image: url('../../assets/chayo-two.jpg');
+   background-image: url('https://fv9-3.failiem.lv/thumb_show.php?i=dbzx3fapa&view');
    background-attachment: fixed;
    background-repeat: no-repeat;
    background-position: center center;

@@ -14,7 +14,7 @@ const SectionVlog = () => {
                <div className='image-main relative'>
                   <img src={imageThree} alt='image-three' className='w-full h-full bg-cover z-50' />
                </div>
-               <input
+               <input   
                   type='text'
                   placeholder='Buscar Imagen'
                   className='w-full dark:bg-neutral-800 bg-neutral-200 p-2 outline-none my-3 transition-all text-black dark:text-white 

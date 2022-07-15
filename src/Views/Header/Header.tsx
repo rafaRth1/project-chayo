@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Logo from '../../components/Logo';
+import RedSocials from '../../components/RedSocials/RedSocials';
 import Navigation from '../Navigation';
 import './header.css';
 
@@ -12,6 +13,7 @@ const Header = () => {
             <div className='flex flex-col md:flex-row justify-between items-center'>
                <Logo toggleDark={toggleDark} />
                <Navigation toggleDark={toggleDark} settoggleDark={settoggleDark} />
+               <RedSocials />
             </div>
          </div>
       </header>
